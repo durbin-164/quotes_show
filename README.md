@@ -136,6 +136,10 @@ cd quotes_show
 
 - `GET /api/quote`: Fetches a random quote of the day.
 
+## Medium Article
+
+[Article link](https://medium.com/@masud.educations/building-quotes-show-a-web-application-for-daily-inspiration-1369dcedd8c7)
+
 ## Contributing
 
 Contributions to the Quotes Show project are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request.
