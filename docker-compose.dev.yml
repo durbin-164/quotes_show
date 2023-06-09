@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  postgres:
+    image: postgres
+    restart: always
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=root12345
+      - POSTGRES_DB=quotes_show
+    volumes:
+      - ./pgdata:/var/lib/postgresql/data
+
+  redis:
+    image: redis
+    restart: always
+    ports:
+      - 6379:6379
